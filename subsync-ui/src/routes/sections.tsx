@@ -18,7 +18,8 @@ export const ProductsPage = lazy(() => import('src/pages/products'));
 export const Page404 = lazy(() => import('src/pages/page-not-found'));
 export const BookingPage = lazy(() => import('src/pages/sub-request/booking'));
 export const BookingCalendarPage = lazy(() => import('src/pages/booking-calendar'));
-// export const BookingCheckoutPage = lazy(() => import('src/pages/booking-checkout'));
+export const SubLoginView = lazy(() => import('src/pages/sub-login'));
+export const SummaryPage = lazy(() => import('src/pages/summary-page'));
 
 // ----------------------------------------------------------------------
 
@@ -49,6 +50,7 @@ export function Router() {
         { element: <HomePage />, index: true },
         { path: 'booking', element: <BookingPage /> },
         { path: 'booking-calendar', element: <BookingCalendarPage /> },
+        { path: 'summary', element: <SummaryPage /> },
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
@@ -59,6 +61,14 @@ export function Router() {
       element: (
         <AuthLayout>
           <SignInPage />
+        </AuthLayout>
+      ),
+    },
+    {
+      path: 'sub-login',
+      element: (
+        <AuthLayout>
+          <SubLoginView />
         </AuthLayout>
       ),
     },

@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react';
 
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import { Button } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
@@ -21,7 +22,7 @@ export function SignInView() {
   const [showPassword, setShowPassword] = useState(false);
 
   const handleSignIn = useCallback(() => {
-    router.push('/');
+    router.push('/booking-calendar');
   }, [router]);
 
   const renderForm = (
@@ -95,15 +96,18 @@ export function SignInView() {
       </Divider>
 
       <Box gap={1} display="flex" justifyContent="center">
-        <IconButton color="inherit">
+        <Button variant="text">
+          <img src="/assets/icons/google-sso.png" alt="google-sso" width={250} />
+        </Button>
+        {/* <IconButton color="inherit">
           <Iconify icon="logos:google-icon" />
-        </IconButton>
-        <IconButton color="inherit">
+        </IconButton> */}
+        {/* <IconButton color="inherit">
           <Iconify icon="eva:github-fill" />
         </IconButton>
         <IconButton color="inherit">
           <Iconify icon="ri:twitter-x-fill" />
-        </IconButton>
+        </IconButton> */}
       </Box>
     </>
   );

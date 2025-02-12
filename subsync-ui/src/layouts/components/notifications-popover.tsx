@@ -17,8 +17,6 @@ import ListSubheader from '@mui/material/ListSubheader';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemButton from '@mui/material/ListItemButton';
 
-import { fToNow } from 'src/utils/format-time';
-
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
 
@@ -95,9 +93,9 @@ export function NotificationsPopover({ data = [], sx, ...other }: NotificationsP
         <Box display="flex" alignItems="center" sx={{ py: 2, pl: 2.5, pr: 1.5 }}>
           <Box sx={{ flexGrow: 1 }}>
             <Typography variant="subtitle1">Notifications</Typography>
-            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            {/* <Typography variant="body2" sx={{ color: 'text.secondary' }}>
               You have {totalUnRead} unread messages
-            </Typography>
+            </Typography> */}
           </Box>
 
           {totalUnRead > 0 && (
@@ -116,11 +114,11 @@ export function NotificationsPopover({ data = [], sx, ...other }: NotificationsP
             disablePadding
             subheader={
               <ListSubheader disableSticky sx={{ py: 1, px: 2.5, typography: 'overline' }}>
-                New
+                Current
               </ListSubheader>
             }
           >
-            {notifications.slice(0, 2).map((notification) => (
+            {notifications.slice(0, 1).map((notification) => (
               <NotificationItem key={notification.id} notification={notification} />
             ))}
           </List>
@@ -129,11 +127,11 @@ export function NotificationsPopover({ data = [], sx, ...other }: NotificationsP
             disablePadding
             subheader={
               <ListSubheader disableSticky sx={{ py: 1, px: 2.5, typography: 'overline' }}>
-                Before that
+                Upcoming
               </ListSubheader>
             }
           >
-            {notifications.slice(2, 5).map((notification) => (
+            {notifications.slice(1, 5).map((notification) => (
               <NotificationItem key={notification.id} notification={notification} />
             ))}
           </List>
@@ -184,7 +182,8 @@ function NotificationItem({ notification }: { notification: NotificationItemProp
             }}
           >
             <Iconify width={14} icon="solar:clock-circle-outline" />
-            {fToNow(notification.postedAt)}
+            {notification.postedAt}
+            {/* {fToNow(notification.postedAt) || notification.postedAt} */}
           </Typography>
         }
       />
@@ -198,8 +197,16 @@ function renderContent(notification: NotificationItemProps) {
   const title = (
     <Typography variant="subtitle2">
       {notification.title}
-      <Typography component="span" variant="body2" sx={{ color: 'text.secondary' }}>
-        &nbsp; {notification.description}
+      <Typography
+        variant="body2"
+        sx={{ color: 'text.secondary' }}
+        dangerouslySetInnerHTML={{ __html: notification.description }}
+      >
+        {/* <Typography
+          component="span"
+          dangerouslySetInnerHTML={{ __html: notification.description }}
+          sx={{ color: 'text.secondary' }}
+        /> */}
       </Typography>
     </Typography>
   );

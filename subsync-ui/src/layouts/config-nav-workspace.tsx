@@ -3,9 +3,9 @@
 export const _workspaces = [
   {
     id: 'class-1',
-    name: '5th Grade',
+    name: '4th Grade',
     logo: `/assets/icons/workspaces/logo-1.webp`,
-    plan: 'Free',
+    plan: '',
   },
   {
     id: 'class-2',

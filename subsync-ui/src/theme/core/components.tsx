@@ -19,9 +19,16 @@ const MuiBackdrop: Components<Theme>['MuiBackdrop'] = {
 
 const MuiButton: Components<Theme>['MuiButton'] = {
   defaultProps: {
-    disableElevation: true,
+    // disableElevation: true,
   },
   styleOverrides: {
+    root: ({ theme }) => ({
+      transition: 'all 0.3s',
+      '&:hover': {
+        scale: 1.05,
+        transition: 'all 0.3s',
+      },
+    }),
     containedInherit: ({ theme }) => ({
       color: theme.vars.palette.common.white,
       backgroundColor: theme.vars.palette.grey[800],
@@ -33,6 +40,18 @@ const MuiButton: Components<Theme>['MuiButton'] = {
     sizeLarge: {
       minHeight: 48,
     },
+  },
+};
+
+const MuiIconButton: Components<Theme>['MuiIconButton'] = {
+  styleOverrides: {
+    root: ({ theme }) => ({
+      transition: 'all 0.3s',
+      '&:hover': {
+        scale: 1.08,
+        transition: 'all 0.3s',
+      },
+    }),
   },
 };
 
@@ -155,6 +174,32 @@ const MuiRadio: Components<Theme>['MuiRadio'] = {
   },
 };
 
+const MuiAccordion: Components<Theme>['MuiAccordion'] = {
+  styleOverrides: {
+    root: ({ theme }) => ({
+      borderRadius: 16,
+      boxShadow: theme.customShadows.z8,
+      padding: '8px 16px',
+      marginBottom: 16,
+      transition: 'all 0.8s ease-in-out',
+
+      '&:before': {
+        display: 'none',
+      },
+
+      '&:not(.Mui-expanded):hover': {
+        background: theme.vars.palette.grey[200],
+        boxShadow: theme.customShadows.z24,
+        transition: 'all 0.8s ease-in-out',
+      },
+
+      '& .MuiAccordionSummary-content': {
+        flexDirection: 'column',
+      },
+    }),
+  },
+};
+
 // ----------------------------------------------------------------------
 
 export const components = {
@@ -163,6 +208,7 @@ export const components = {
   MuiPaper,
   MuiRadio,
   MuiButton,
+  MuiIconButton,
   MuiBackdrop,
   MuiMenuItem,
   MuiCheckbox,
@@ -170,4 +216,5 @@ export const components = {
   MuiCardHeader,
   MuiOutlinedInput,
   MuiFormControlLabel,
+  MuiAccordion,
 };

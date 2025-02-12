@@ -8,6 +8,7 @@ import { useTheme } from '@mui/material/styles';
 
 import { _notifications } from 'src/_mock';
 
+import FadeIn from 'src/components/fadeIn';
 import { Iconify } from 'src/components/iconify';
 
 import { Main } from './main';
@@ -134,7 +135,9 @@ export function DashboardLayout({ sx, children, header }: DashboardLayoutProps) 
         ...sx,
       }}
     >
-      <Main>{children}</Main>
+      <FadeIn>
+        <Main>{children}</Main>
+      </FadeIn>
     </LayoutSection>
   );
 }
