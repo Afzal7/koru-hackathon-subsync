@@ -47,7 +47,7 @@ export function Router() {
         </DashboardLayout>
       ),
       children: [
-        { element: <HomePage />, index: true },
+        // { element: <HomePage />, index: true },
         { path: 'booking', element: <BookingPage /> },
         { path: 'booking-calendar', element: <BookingCalendarPage /> },
         { path: 'summary', element: <SummaryPage /> },
@@ -55,6 +55,14 @@ export function Router() {
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
       ],
+    },
+    {
+      path: '/',
+      element: (
+        <AuthLayout>
+          <SignInPage />
+        </AuthLayout>
+      ),
     },
     {
       path: 'sign-in',
