@@ -6,6 +6,7 @@ const SubRequestSchema = new mongoose.Schema({
     voiceNotes: { type: [String], default: [] },
     notes: { type: [String], default: [] },
   },
+  summary: { type: String, default: '' },
   startDate: { type: Date, default: null }, 
   endDate: { type: Date, default: null }, 
   subEmail: { type: String, required: true }, 
