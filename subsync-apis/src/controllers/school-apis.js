@@ -1,10 +1,10 @@
-const express = require('express');
-const School = require('../models/school');
+const express = require("express");
+const School = require("../models/school");
 
 const router = express.Router();
 
 // Create a new school
-router.post('/', async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const newSchool = new School(req.body);
     await newSchool.save();
@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
 });
 
 // Get all schools
-router.get('/', async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const schools = await School.find();
     res.json(schools);
@@ -25,10 +25,10 @@ router.get('/', async (req, res) => {
 });
 
 // Get a single school by ID
-router.get('/:id', async (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
     const school = await School.findById(req.params.id);
-    if (!school) return res.status(404).json({ error: 'School not found' });
+    if (!school) return res.status(404).json({ error: "School not found" });
     res.json(school);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -36,10 +36,15 @@ router.get('/:id', async (req, res) => {
 });
 
 // Update a school
-router.put('/:id', async (req, res) => {
+router.put("/:id", async (req, res) => {
   try {
-    const updatedSchool = await School.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!updatedSchool) return res.status(404).json({ error: 'School not found' });
+    const updatedSchool = await School.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true }
+    );
+    if (!updatedSchool)
+      return res.status(404).json({ error: "School not found" });
     res.json(updatedSchool);
   } catch (error) {
     res.status(400).json({ error: error.message });
@@ -47,11 +52,12 @@ router.put('/:id', async (req, res) => {
 });
 
 // Delete a school
-router.delete('/:id', async (req, res) => {
+router.delete("/:id", async (req, res) => {
   try {
     const deletedSchool = await School.findByIdAndDelete(req.params.id);
-    if (!deletedSchool) return res.status(404).json({ error: 'School not found' });
-    res.json({ message: 'School deleted successfully' });
+    if (!deletedSchool)
+      return res.status(404).json({ error: "School not found" });
+    res.json({ message: "School deleted successfully" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

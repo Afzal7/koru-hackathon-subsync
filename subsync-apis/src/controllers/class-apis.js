@@ -1,10 +1,10 @@
-const express = require('express');
-const Class = require('../models/class');
+const express = require("express");
+const Class = require("../models/class");
 
 const router = express.Router();
 
 // Create a new class
-router.post('/', async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const newClass = new Class(req.body);
     await newClass.save();
@@ -15,11 +15,11 @@ router.post('/', async (req, res) => {
 });
 
 // Get all classes
-router.get('/', async (req, res) => {
+router.get("/", async (req, res) => {
   try {
-    console.log("In get class")
+    console.log("In get class");
     const classes = await Class.find({});
-    console.log("classes= ",classes)
+    console.log("classes= ", classes);
     res.json(classes);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -27,10 +27,10 @@ router.get('/', async (req, res) => {
 });
 
 // Get a single class by ID
-router.get('/:id', async (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
     const classItem = await Class.findById(req.params.id);
-    if (!classItem) return res.status(404).json({ error: 'Class not found' });
+    if (!classItem) return res.status(404).json({ error: "Class not found" });
     res.json(classItem);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -38,10 +38,15 @@ router.get('/:id', async (req, res) => {
 });
 
 // Update a class
-router.put('/:id', async (req, res) => {
+router.put("/:id", async (req, res) => {
   try {
-    const updatedClass = await Class.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!updatedClass) return res.status(404).json({ error: 'Class not found' });
+    const updatedClass = await Class.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true }
+    );
+    if (!updatedClass)
+      return res.status(404).json({ error: "Class not found" });
     res.json(updatedClass);
   } catch (error) {
     res.status(400).json({ error: error.message });
@@ -49,11 +54,12 @@ router.put('/:id', async (req, res) => {
 });
 
 // Delete a class
-router.delete('/:id', async (req, res) => {
+router.delete("/:id", async (req, res) => {
   try {
     const deletedClass = await Class.findByIdAndDelete(req.params.id);
-    if (!deletedClass) return res.status(404).json({ error: 'Class not found' });
-    res.json({ message: 'Class deleted successfully' });
+    if (!deletedClass)
+      return res.status(404).json({ error: "Class not found" });
+    res.json({ message: "Class deleted successfully" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

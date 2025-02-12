@@ -1,0 +1,538 @@
+{
+  "notes": [
+    {
+      "note": "Liam sometimes loses focus during long assignments—he benefits from frequent breaks."
+    },
+    {
+      "note": "Some students are struggling with fractions; we might need extra review sessions."
+    },
+    {
+      "note": "Ava is excelling in math and enjoys extra challenges."
+    },
+    {
+      "note": "There’s been an increase in side conversations during independent work time."
+    },
+    {
+      "note": "Ethan is allergic to peanuts—please ensure snacks are safe."
+    },
+    {
+      "note": "The class overall did well on the history quiz"
+    },
+    {
+      "note": "but some need help with essay structure."
+    },
+    {
+      "note": "Mia needs additional support in reading comprehension—one-on-one time helps."
+    },
+    {
+      "note": "A few students need reminders about raising hands instead of calling out."
+    },
+    {
+      "note": "Noah and Oliver should not sit together—they distract each other."
+    },
+    {
+      "note": "Sophia prefers working alone but is opening up to small group discussions."
+    },
+    {
+      "note": "Jackson actively participates in science and enjoys hands-on experiments."
+    },
+    {
+      "note": "Chloe struggles with spelling and needs extra time on tests."
+    },
+    {
+      "note": "Some students are having difficulty adjusting to the new seating chart."
+    },
+    {
+      "note": "Daniel is frequently out of his seat and benefits from structured movement breaks."
+    },
+    {
+      "note": "Isabella is lactose intolerant—please check for dairy in shared snacks."
+    },
+    {
+      "note": "Lucas enjoys history discussions and often contributes extra research."
+    },
+    {
+      "note": "Mason finds writing assignments challenging—graphic organizers help."
+    },
+    {
+      "note": "There’s been an increase in missing homework assignments across the class."
+    },
+    {
+      "note": "Zoe gets anxious before tests and needs reassurance."
+    },
+    {
+      "note": "Oliver thrives in art class and enjoys experimenting with different materials."
+    },
+    {
+      "note": "Grace tends to shut down when asked to read aloud—confidence building is key."
+    },
+    {
+      "note": "Some students are not completing their independent reading at home."
+    },
+    {
+      "note": "Noah needs reminders to raise his hand instead of calling out."
+    },
+    {
+      "note": "Jacob struggles with focus in noisy environments—a quiet setting helps."
+    },
+    {
+      "note": "The class needs more practice with multi-step problem solving."
+    },
+    {
+      "note": "Ethan dislikes math and often disengages."
+    },
+    {
+      "note": "Jackson and Mason should not sit together—they encourage off-task behavior."
+    },
+    {
+      "note": "Mia needs help organizing her thoughts before writing."
+    },
+    {
+      "note": "Daniel excels in P.E. and always gives his best effort."
+    },
+    {
+      "note": "Isabella prefers structured tasks over open-ended assignments."
+    },
+    {
+      "note": "Chloe is very social but sometimes needs reminders to focus."
+    },
+    {
+      "note": "Lucas is highly motivated in coding activities."
+    },
+    {
+      "note": "Grace frequently forgets homework and needs an organization system."
+    },
+    {
+      "note": "Jacob loves music and enjoys choir."
+    },
+    {
+      "note": "Oliver often rushes through work—accuracy reminders help."
+    },
+    {
+      "note": "The class did well in science but struggled with lab report writing."
+    },
+    {
+      "note": "Liam benefits from movement breaks to stay focused."
+    },
+    {
+      "note": "Zoe should not sit next to Mason—they talk too much."
+    },
+    {
+      "note": "Sophia is struggling with fractions—extra practice needed."
+    },
+    {
+      "note": "Ethan prefers partner work over independent assignments."
+    },
+    {
+      "note": "Jackson enjoys writing but needs grammar support."
+    },
+    {
+      "note": "Noah benefits from hands-on learning activities."
+    },
+    {
+      "note": "Ava needs encouragement to speak up in discussions."
+    },
+    {
+      "note": "Lucas sometimes gets frustrated with hard math problems."
+    },
+    {
+      "note": "Mason enjoys science but struggles with multi-step directions."
+    },
+    {
+      "note": "Mia is allergic to shellfish—double-check snack safety."
+    },
+    {
+      "note": "Jacob enjoys art but dislikes working with clay."
+    },
+    {
+      "note": "Isabella struggles with organization—checklists help."
+    },
+    {
+      "note": "Daniel thrives on positive reinforcement."
+    },
+    {
+      "note": "Grace is very empathetic and helps classmates."
+    },
+    {
+      "note": "Oliver enjoys creative writing."
+    },
+    {
+      "note": "Chloe hesitates to ask for help."
+    },
+    {
+      "note": "Ethan needs more multiplication practice."
+    },
+    {
+      "note": "Noah enjoys team-based activities."
+    },
+    {
+      "note": "Sophia benefits from concise instructions."
+    },
+    {
+      "note": "Jackson sometimes talks over others."
+    },
+    {
+      "note": "Liam enjoys social studies."
+    },
+    {
+      "note": "Ava tends to daydream—refocusing needed."
+    },
+    {
+      "note": "Mason enjoys reading but struggles with comprehension."
+    },
+    {
+      "note": "Mia needs support with word problems."
+    },
+    {
+      "note": "The class needs reminders about assignment deadlines."
+    },
+    {
+      "note": "Daniel needs structure but struggles with change."
+    },
+    {
+      "note": "Jacob struggles with multi-step directions."
+    },
+    {
+      "note": "Isabella works best with checklists."
+    },
+    {
+      "note": "Lucas prefers small groups."
+    },
+    {
+      "note": "Some students are struggling with test-taking anxiety."
+    },
+    {
+      "note": "Grace has difficulty transitioning between activities."
+    },
+    {
+      "note": "Noah is eager to participate but needs balance."
+    },
+    {
+      "note": "Oliver enjoys debates."
+    },
+    {
+      "note": "Ethan needs handwriting support."
+    },
+    {
+      "note": "Sophia enjoys helping peers but gets distracted."
+    },
+    {
+      "note": "Jackson doodles when bored."
+    },
+    {
+      "note": "Mason needs reminders to check work."
+    },
+    {
+      "note": "Mia is motivated by positive reinforcement."
+    },
+    {
+      "note": "Jacob struggles with independent work focus."
+    },
+    {
+      "note": "Isabella prefers kinesthetic learning."
+    },
+    {
+      "note": "Daniel needs fluency practice."
+    },
+    {
+      "note": "Ava enjoys reading but skips words aloud."
+    },
+    {
+      "note": "Lucas prefers visual aids."
+    },
+    {
+      "note": "Zoe needs frustration management support."
+    },
+    {
+      "note": "Chloe needs extra time on tests."
+    },
+    {
+      "note": "Liam rushes to finish first."
+    },
+    {
+      "note": "Grace has a nut allergy—no shared snacks."
+    },
+    {
+      "note": "Noah enjoys competition but struggles with losing."
+    },
+    {
+      "note": "Oliver needs encouragement to participate."
+    },
+    {
+      "note": "Ethan needs silent work redirection."
+    },
+    {
+      "note": "Sophia benefits from movement breaks."
+    },
+    {
+      "note": "Jackson enjoys hands-on learning."
+    },
+    {
+      "note": "Mia sometimes needs extra engagement prompts."
+    },
+    {
+      "note": "Isabella struggles with figurative language."
+    },
+    {
+      "note": "Daniel is very social but needs active listening practice."
+    },
+    {
+      "note": "Mason benefits from chunking assignments."
+    },
+    {
+      "note": "Lucas enjoys technology-based learning."
+    },
+    {
+      "note": "Jacob needs a quiet space for tests."
+    },
+    {
+      "note": "Chloe enjoys peer discussions but gets off-topic."
+    },
+    {
+      "note": "Grace gets anxious when called on unexpectedly."
+    },
+    {
+      "note": "Ava enjoys poetry but dislikes persuasive writing."
+    },
+    {
+      "note": "Liam enjoys real-world applications of learning."
+    },
+    {
+      "note": "Noah struggles with multi-step directions."
+    },
+    {
+      "note": "Sophia needs encouragement to stay engaged."
+    },
+    {
+      "note": "Ethan enjoys logic games."
+    },
+    {
+      "note": "Jackson needs help organizing materials."
+    },
+    {
+      "note": "Zoe is highly imaginative."
+    },
+    {
+      "note": "Isabella needs phonics support."
+    },
+    {
+      "note": "Daniel enjoys role-playing history."
+    },
+    {
+      "note": "Lucas needs reassurance in new tasks."
+    },
+    {
+      "note": "Mason struggles with focus in long lessons."
+    },
+    {
+      "note": "Jacob enjoys presentations but gets nervous."
+    },
+    {
+      "note": "Chloe struggles with sarcasm understanding."
+    },
+    {
+      "note": "Grace benefits from predictable routines."
+    },
+    {
+      "note": "Oliver enjoys collaborative work."
+    },
+    {
+      "note": "Mia needs encouragement to double-check work."
+    },
+    {
+      "note": "Liam struggles with too many instructions at once."
+    },
+    {
+      "note": "Ava needs spelling practice."
+    },
+    {
+      "note": "Noah enjoys group problem-solving."
+    },
+    {
+      "note": "Sophia dislikes technology-based assignments."
+    },
+    {
+      "note": "Ethan benefits from graphic organizers for writing."
+    },
+    {
+      "note": "Jackson rushes reading assignments."
+    },
+    {
+      "note": "Isabella struggles with telling time."
+    },
+    {
+      "note": "Daniel enjoys hands-on science."
+    },
+    {
+      "note": "Lucas benefits from participation reinforcement."
+    },
+    {
+      "note": "Mason gets restless in long lessons."
+    },
+    {
+      "note": "Jacob enjoys acting out stories."
+    },
+    {
+      "note": "Chloe gets nervous for timed tests."
+    },
+    {
+      "note": "Grace enjoys educational games."
+    },
+    {
+      "note": "Oliver needs vocabulary expansion."
+    },
+    {
+      "note": "Mia benefits from material previews."
+    },
+    {
+      "note": "Liam enjoys real-world math problems."
+    },
+    {
+      "note": "Ava struggles with long reading passages."
+    },
+    {
+      "note": "Noah enjoys project-based learning."
+    },
+    {
+      "note": "Sophia needs task focus reminders."
+    },
+    {
+      "note": "Ethan enjoys math games."
+    },
+    {
+      "note": "Jackson struggles with sentence structure."
+    },
+    {
+      "note": "Zoe needs writing focus."
+    },
+    {
+      "note": "Isabella enjoys drawing ideas."
+    },
+    {
+      "note": "Daniel gets overwhelmed by too much writing."
+    },
+    {
+      "note": "Lucas benefits from explicit phonics instruction."
+    },
+    {
+      "note": "Mason connects subjects well."
+    },
+    {
+      "note": "Jacob needs grammar support."
+    },
+    {
+      "note": "Chloe struggles with test anxiety."
+    },
+    {
+      "note": "Grace enjoys discussions."
+    },
+    {
+      "note": "Oliver enjoys long-term projects."
+    },
+    {
+      "note": "Mia needs speaking organization."
+    },
+    {
+      "note": "Liam enjoys astronomy."
+    },
+    {
+      "note": "Ava needs quiet work spaces."
+    },
+    {
+      "note": "Noah enjoys manipulatives."
+    },
+    {
+      "note": "Sophia struggles with complex directions."
+    },
+    {
+      "note": "Ethan enjoys hands-on projects."
+    },
+    {
+      "note": "Jackson needs frustration management."
+    },
+    {
+      "note": "Zoe enjoys comic strips."
+    },
+    {
+      "note": "Isabella struggles with comprehension strategies."
+    },
+    {
+      "note": "Daniel enjoys tech in class."
+    },
+    {
+      "note": "Lucas needs organization support."
+    },
+    {
+      "note": "Mason enjoys discussions."
+    },
+    {
+      "note": "Jacob benefits from checklists."
+    },
+    {
+      "note": "Chloe enjoys sharing ideas."
+    },
+    {
+      "note": "Grace needs transition breaks."
+    },
+    {
+      "note": "Oliver enjoys research."
+    },
+    {
+      "note": "Mia gets nervous presenting."
+    },
+    {
+      "note": "Liam enjoys interactive learning."
+    },
+    {
+      "note": "Ava is distracted by background noise."
+    },
+    {
+      "note": "Noah enjoys building models."
+    },
+    {
+      "note": "Sophia needs transition support."
+    },
+    {
+      "note": "Ethan enjoys practicing math facts."
+    },
+    {
+      "note": "Jackson needs extra processing time."
+    },
+    {
+      "note": "Zoe enjoys making up stories."
+    },
+    {
+      "note": "Isabella struggles with figurative language."
+    },
+    {
+      "note": "Daniel enjoys partner work."
+    },
+    {
+      "note": "Lucas needs material organization support."
+    },
+    {
+      "note": "Mason enjoys self-exploration in learning."
+    },
+    {
+      "note": "Jacob gets distracted on the computer."
+    },
+    {
+      "note": "Chloe enjoys fantasy books."
+    },
+    {
+      "note": "Grace gets anxious with routine changes."
+    },
+    {
+      "note": "Oliver enjoys role-playing activities."
+    },
+    {
+      "note": "Mia needs summarizing practice."
+    },
+    {
+      "note": "Liam enjoys puzzles."
+    },
+    {
+      "note": "Ava needs reminders to slow down on work."
+    }
+  ]
+}
