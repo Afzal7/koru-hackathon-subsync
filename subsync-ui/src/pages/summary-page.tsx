@@ -58,7 +58,7 @@ export default function SummaryPage() {
   return (
     <>
       <Helmet>
-        <title> {`Sub Request 01/01/2025 - ${CONFIG.appName}`}</title>
+        <title> {`Western Central Public School 01/01/2025 - ${CONFIG.appName}`}</title>
       </Helmet>
 
       <DashboardContent>{renderPage()}</DashboardContent>
@@ -89,9 +89,9 @@ const HomeSection = ({ setSection }: { setSection: (section: string) => void }) 
   <FadeIn>
     <Box>
       <Box mb={2}>
-        <Typography variant="h2">School Name</Typography>
+        <Typography variant="h2">Western Central Public School</Typography>
         <Typography variant="h4" sx={{ color: 'grey.600' }}>
-          Feb 13 - Feb 17
+          Feb 13 - Feb 14
         </Typography>
       </Box>
 

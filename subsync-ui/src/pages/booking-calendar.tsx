@@ -32,7 +32,7 @@ export default function BookingCalendarPage() {
     <FadeIn>
       <DashboardContent>
         <Box display="flex" alignItems="center" mb={2}>
-          <Typography variant="h4">Schedule</Typography>
+          <Typography variant="h3">Schedule</Typography>
           {/* <Typography variant="h5" sx={{ ml: 2, color: 'grey.600' }}>
             02/13/2025
           </Typography> */}
@@ -128,7 +128,7 @@ const CalendarWrapper = styled(Box)<BoxProps>(({ theme }) => ({
       flexWrap: 'wrap',
       flexDirection: 'row !important',
       '&.fc-header-toolbar': {
-        marginBottom: theme.spacing(6),
+        // marginBottom: theme.spacing(6),
       },
       '.fc-prev-button, & .fc-next-button': {
         display: 'inline-block',
@@ -245,6 +245,12 @@ const CalendarWrapper = styled(Box)<BoxProps>(({ theme }) => ({
 
     // ** Event Colors
     '& .fc-event': {
+      cursor: 'pointer',
+      padding: '4px 8px !important',
+      transition: 'all 0.5s ease',
+      '&:hover': {
+        scale: 1.08,
+      },
       '&:not(.fc-list-event)': {
         '&.bg-primary': {
           borderColor: 'transparent',
