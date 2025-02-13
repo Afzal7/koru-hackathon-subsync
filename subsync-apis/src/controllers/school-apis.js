@@ -1,6 +1,5 @@
 const express = require("express");
 const School = require("../models/school");
-
 const router = express.Router();
 
 // Create a new school
